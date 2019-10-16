@@ -1,1 +1,1 @@
-Final project in CodeCademys 'Learn how to build a website' course! Ready, Set, Go!
+Making a webpage for Colmar Academy, last test in Learn to build a website course on CodeCademy.org
