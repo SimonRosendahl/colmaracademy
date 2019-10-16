@@ -1,0 +1,44 @@
+/*Catamaran font, weights 400 and 500*/
+
+@import url('https://fonts.googleapis.com/css?family=Catamaran:400,500&display=swap');
+
+/*Roboto font, weights 400 and 500*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    margin: 0px 24px 0px 24px;
+}
+header li {
+    display: inline-block;
+    margin-right: 16px;
+}
+header li a {
+    text-decoration: none;
+    color: black;
+}
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    float:left;
+}
+.colmar {
+    font-family: "Catamaran", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+}
+.academy {
+    font-family: "Catamaran", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: gray;
+}
