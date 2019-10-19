@@ -29,6 +29,9 @@ header li a {
     text-decoration: none;
     color: black;
 }
+header li a:hover {
+    color: skyblue;
+}
 
 /* Logo */
 
@@ -55,14 +58,18 @@ header li a {
 .banner {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     background-color: lightgray;
+    padding: 32px 24px 32px 24px;
 }
 .banner-img {
-    width: 60%;
-    height: 40%;
-    margin: 32px 24px 32px 24px;
+    display: flex;
+    min-width: 30%;
+    max-width: 60%;
+    
 }
 .banner-section {
+    padding-left: 40px;
     width: 35%;
     color: #222426;
 }
@@ -84,7 +91,7 @@ header li a {
     border: none;
 }
 .banner-button:hover {
-    background-color: #494e52;
+    background-color: skyblue;
     transition: background-color 0.30s ease-in 0s;
 }
 .banner-button a {
@@ -95,3 +102,62 @@ header li a {
     font-size: 1.25rem;
 }
 
+/* First section */
+
+.first-section {
+    display:flex;
+    padding: 32px 24px 32px 24px;
+    color: #222426;
+}
+.first-section-cntbox1 {
+    width: 60%;
+}
+.first-section-cntbox1 h3 {
+    font-size: 4rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.first-section-cntbox1 p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    opacity: 0.8;
+}
+.emanuel {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 40px;
+    opacity: 1;
+}
+.first-section-cntbox2 {
+    width: 40%;
+}
+#cntbox2-child {
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+}
+#cntbox2-child img {
+    width: 35%;
+    margin: 16px 16px 16px 16px
+}
+.cntbox2-child1 {
+    margin-top: 0px;
+}
+#cntbox2-child p {
+    font-size: 1.2rem;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+#cntbox2-child h4 {
+    font-size: 2.3rem;
+}
+#cntbox2-child a {
+    text-decoration: none;
+    color: lightslategrey;
+}
+#cntbox2-child a:hover {
+    color: skyblue;
+}
+.cntbox2-child3 {
+    background-color: lightgrey;
+}
