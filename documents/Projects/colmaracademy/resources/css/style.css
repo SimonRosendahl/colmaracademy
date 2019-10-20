@@ -131,33 +131,70 @@ header li a:hover {
 .first-section-cntbox2 {
     width: 40%;
 }
-#cntbox2-child {
+#first-section-cntbox2-child {
     display: flex;
     align-items: center;
     margin-left: 16px;
 }
-#cntbox2-child img {
+#first-section-cntbox2-child img {
     width: 35%;
     margin: 16px 16px 16px 16px
 }
-.cntbox2-child1 {
+.first-section-cntbox2-child1 {
     margin-top: 0px;
 }
-#cntbox2-child p {
+#first-section-cntbox2-child p {
     font-size: 1.2rem;
     margin-top: 8px;
     margin-bottom: 8px;
 }
-#cntbox2-child h4 {
+#first-section-cntbox2-child h4 {
     font-size: 2.3rem;
 }
-#cntbox2-child a {
+#first-section-cntbox2-child a {
     text-decoration: none;
     color: lightslategrey;
 }
-#cntbox2-child a:hover {
+#first-section-cntbox2-child a:hover {
     color: skyblue;
 }
-.cntbox2-child3 {
+.first-section-cntbox2-child3 {
     background-color: lightgrey;
 }
+
+/* Second section */
+#second-section {
+    background-color: lightgrey;
+    color: #222426;
+    padding: 32px 72px 32px 72px;
+}
+#second-section-cntbox1 {
+    margin-bottom: 32px;
+}
+#second-section-cntbox1 h1 {
+    font-size: 5.0rem;
+    text-align: center;
+}
+#second-section-cntbox2 {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#second-section-cntbox2-child {
+    background-color: white;
+    margin-top: 32px;
+}
+#second-section-cntbox2-child div {
+    margin: 16px 16px 24px 16px
+}
+#second-section-cntbox2-child img {
+    height: auto;
+}
+#second-section-cntbox2-child p {
+    margin-top: 8px;
+    opacity: 0.8;
+}
+#second-section-cntbox2-child h4 {
+    font-size: 2.5rem;
+}
+
